@@ -1,6 +1,6 @@
 // 1. Write a C program to print your name.
 
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
     printf("Siddhi");
