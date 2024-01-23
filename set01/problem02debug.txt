@@ -1,0 +1,24 @@
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem02.c, line 7.
+(gdb) r
+Starting program: D:\git\c_activity\set01/a.exe
+[New Thread 9444.0x1614]
+[New Thread 9444.0x200c]
+
+Breakpoint 1, main () at problem02.c:7
+7           printf("Enter first number:");
+(gdb) s
+Enter first number:8        scanf("%d",&num1);
+(gdb) s
+s
+10           printf("Enter second number:");
+(gdb) s
+Enter second number:11      scanf("%d",&num2);
+(gdb) s
+13          sum = num1+ num2;
+(gdb) s
+14          printf("Sum of %d and %d is %d",num1, num2, sum);
+(gdb) s
+Sum of 0 and 9770504 is 977050415           return 0;
+(gdb) s
+16      }(gdb)
