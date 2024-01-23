@@ -21,4 +21,4 @@ Enter second number:11      scanf("%d",&num2);
 (gdb) s
 Sum of 0 and 9770504 is 977050415           return 0;
 (gdb) s
-16      }(gdb)
+16      }(g
