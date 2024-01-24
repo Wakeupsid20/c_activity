@@ -41,6 +41,6 @@ int compare(int a, int b, int c) {
     }
 }
 
-/
 void output(int a, int b, int c, int largest) {
-    printf("The largest of %d, %d, and %d is %d
+     printf("The largest of %d, %d, and %d is %d.\n", a, b, c, largest);
+}
