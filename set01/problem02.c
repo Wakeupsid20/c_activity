@@ -1,16 +1,12 @@
-//2. Write a C program to add two numbers.
-
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int num1, num2,sum;
-    printf("Enter first number:");
-    scanf("%d",&num1);
+    int a,b,result;
+    printf("Enter two numbers:");
+    scanf("%d %d",&a, &b);
 
-     printf("Enter second number:");
-    scanf("%d",&num2);
+    result = a+b;
+    printf("The sum of %d+ %d is %d\n",a,b,result);
 
-    sum = num1+ num2;
-    printf("Sum of %d and %d is %d",num1, num2, sum);
     return 0;
 }
