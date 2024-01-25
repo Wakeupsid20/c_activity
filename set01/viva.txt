@@ -1,0 +1,6 @@
+1)what is preprocessor?
+2)what is gcc?gcc is a compiler that coverts c source files into executable
+3)what is a compiler?
+4)what is hashtag?
+preprocessor of gcc will process lines starting with #tag
+input is also c source and output is also c source
