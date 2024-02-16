@@ -1,0 +1,19 @@
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem01.c, line 6.
+(gdb) r
+Starting program: D:\git\c_activity\set01/a.exe
+[New Thread 20320.0x499c]
+[New Thread 20320.0x5498]
+
+Breakpoint 1, main () at problem01.c:6
+6           printf("Siddhi");
+(gdb) s
+Siddhi7     return 0;
+(gdb) s
+8       }(gdb) s
+0x00401288 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb)

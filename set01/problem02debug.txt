@@ -1,0 +1,21 @@
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem02.c, line 5.
+(gdb) r
+Starting program: D:\git\c_activity\set01/a.exe
+[New Thread 4904.0x2f24]
+[New Thread 4904.0x3734]
+
+Breakpoint 1, main () at problem02.c:5
+5           printf("Enter two numbers:");
+(gdb) s
+Enter two numbers:6         scanf("%d %d",&a, &b);
+(gdb) s
+s
+8           result = a+b;
+(gdb) s
+9           printf("The sum of %d+ %d is %d\n",a,b,result);
+(gdb) s
+The sum of 0+ 11736584 is 11736584
+11          return 0;
+(gdb) s
+12      }(gdb) s

@@ -1,0 +1,54 @@
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem03.c, line 13.
+(gdb) r
+Starting program: D:\git\c_activity\set01/a.exe
+[New Thread 8056.0x2418]
+[New Thread 8056.0x3b50]
+
+Breakpoint 1, main () at problem03.c:13
+13          num1 = input();
+(gdb) s 
+input () at problem03.c:28
+28          printf("Enter a number: ");
+(gdb) s
+Enter a number: 29          scanf("%d", &num);
+(gdb) s
+s
+30          return num;
+(gdb) s
+31      }
+(gdb) s
+main () at problem03.c:14
+14          num2 = input();
+(gdb) s
+input () at problem03.c:28
+28          printf("Enter a number: ");
+(gdb) s
+Enter a number: 29          scanf("%d", &num);
+(gdb) s
+30          return num;
+(gdb) s
+31      }
+(gdb) s
+main () at problem03.c:17
+17          result = add(num1, num2);
+(gdb) s
+add (a=6422476, b=6422476) at problem03.c:35
+35          return a + b;
+(gdb) s
+36      }
+(gdb) s
+main () at problem03.c:20
+20          output(num1, num2, result);
+(gdb) s
+output (a=6422476, b=6422476, sum=12844952) at problem03.c:40
+40          printf("The sum of %d and %d is %d\n", a, b, sum);
+(gdb) s
+The sum of 6422476 and 6422476 is 12844952
+42      }
+(gdb) s
+main () at problem03.c:22
+22          return 0;
+(gdb) s
+23      }
+(gdb) s
