@@ -8,13 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-<<<<<<< HEAD
       "cwd": "d:/git/c_activity-1/set01",
       "program": "d:/git/c_activity-1/set01/build/Debug/outDebug",
-=======
-      "cwd": "d:/git/c_activity/set01",
-      "program": "d:/git/c_activity/set01/build/Debug/outDebug",
->>>>>>> 0fd5ec5de44facdd7b4be2ff7e801d9d22e5341a
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
