@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <p id="myParagraph">Original Text</p>
+    <button onclick="changeText()">Change Text</button>
+
+    <script>
+        function changeText() {
+         let txt = document.getElementById("myParagraph").innerText;
+         let emStr="";
+         for (let i= 0; i<txt.length; i+=2){ 
+            emStr +=txt[i] + "_";
+         } 
+         document.getElementById("myParagraph").innerHTML=len;
+        }
+        </script>
+</body>
+</html>
