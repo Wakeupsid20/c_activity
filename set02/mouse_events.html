@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>DOM Manipulation</title>
+    <style>
+        #myDiv{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="myDiv" onmouseover="changeColor()">
+    <p id="myParagraph" onmouseover="changeStyle()">Styling Example</p>
+</div>
+    <script>
+        function changeColor(){
+            document.getElementById("myDiv").style.backgroundColor="red";
+        }
+        function changeStyle(){
+            document.getElementById("myParagraph").style.background ="blue";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <button onclick="removeParagraph()">Remove Paragraph</button>
+    <script>
+        function removeParagraph()
+        var paragraph = document.querySelector("p:nth-child(2)");
+        paragraph.remove();
+        </script>
+</body>
+</html>
