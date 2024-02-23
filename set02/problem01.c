@@ -2,7 +2,7 @@
 
 int main()
 {
-    float base, height, area;
+    float base,  height, area;
 
     printf("Enter base of the triangle: ");
     scanf("%f", &base);
